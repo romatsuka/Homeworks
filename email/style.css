@@ -40,9 +40,13 @@ body {
 }
 
 .text {
+    height: 20px;
     width: 100%;
     margin-left: 10px;
     border: none;
+}
+.text{
+    width: 100%;
 }
 
 .subjeckt {
@@ -69,6 +73,7 @@ body {
 .footer {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 10px;
 
 }
 

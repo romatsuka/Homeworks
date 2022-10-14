@@ -4,10 +4,6 @@
 body{
     margin: 0;
 }
-/* .col{
-    margin-top: 15px;
-    width: 400px;
-} */
 .lead{
     color: blue;
     font-weight: bold;
@@ -20,7 +16,7 @@ body{
     font-weight:lighter;
 }
 .img{
-    /* margin-left: 200px; */
+  
     object-fit: cover;
     width: 100%;
     height: 100%;

@@ -1,57 +1,89 @@
-.blue_btn{
-    width: 100px;
-    height: 50px;
-    background-color: rgb(13 69 205);
-    border-radius: 8px;
-    color: white;
-}
-.blue_btn:hover{
-    background-color: red;
-}
-.grey_btn{
-    width: 100px;
-    height: 50px;
-    background-color: rgb(74 80 88);
-    border-radius: 8px;
-    color: white;
-}
-.grey_btn:hover{
-    background-color: orange;
+:root {
+    --white: rgb(225 225 225);
+    --black: rgb(0 0 0);
+    --blue: rgb(13 69 205);
+    --red: rgb(255 0 0);
+    --grey: rgb(74 80 88);
+    --orange: rgb(255 165 0);
+    --green: rgb(22 98 55);
+    --lggreen: rgb(144 238 144);
+    --yellow: rgb(255 255 0);
 }
 
-.green_btn{
-    width: 110px;
-    height: 60px;
-    background-color: rgb(22 98 55);
-    border-radius: 8px;
-    color: white;
-}
-.green_btn:focus{
-    background-color: lightgreen;
-    color: black;
-    
-}
-.red_btn{
-    width: 110px;
-    height: 60px;
-    background-color: rgb(171 26 45);
-    border-radius: 8px;
-    color: white;
-}
-.red_btn:focus{
-    background-color: orange;
-    margin-right: 25px;
-    transition: 1s;
-}
-.yellow_btn{
+.btn_xs {
     width: 60px;
     height: 60px;
-    border-color: yellow;
     border-radius: 8px;
-    color: black;
 }
-.yellow_btn:hover{
+
+.btn_sm {
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.btn_med {
+    width: 110px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.btn_lg {
+    width: 120px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.f_wcol {
+    color: var(--white);
+}
+
+.f_bcol {
+    color: var(--black);
+}
+
+.blue_btn {
+    background-color: var(--blue);
+}
+
+.grey_btn {
+    background-color: var(--grey);
+}
+
+.green_btn {
+    background-color: var(--green);
+}
+
+.red_btn {
+    background-color: var(--red);
+}
+
+.yellow_btn {
+    border-color: var(--yellow);
+}
+
+.yellow_btn:hover {
     transition: 1s;
-    background-color: yellow;
+    background-color: var(--yellow);
     border-radius: 50%;
+}
+
+.blue_btn:hover {
+    background-color: var(--red);
+}
+
+.grey_btn:hover {
+    background-color: var(--orange);
+}
+
+.green_btn:focus {
+    background-color: var(--lggreen);
+    color: var(--black);
+
+}
+
+.red_btn:focus {
+    background-color: var(--orange);
+    margin-right: 25px;
+    transition: 1s;
 }

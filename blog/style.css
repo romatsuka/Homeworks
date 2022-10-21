@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.col{
+    margin-top: 15px;
+    width: 400px;
+}
+.lead{
+    color: blue;
+    font-weight: bold;
+}
+
+.text_align{
+    text-align: left;
+}
+.font_light{
+    font-weight:lighter;
+}
+.img{
+    margin-left: 200px;
+}
